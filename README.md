@@ -49,6 +49,7 @@ Operadores basicos de soma, subtração, divisão, multiplicação e atribuiçã
 Precedencia de operadores.
 Concatenação de string e conversão de dados.
 Declaração de arrays.
+Realizando os exercícios propostos no final do cap temos uma "pegadinha" onde a informação coletada pelo comando prompt vem como texto e precisamos far o parseInt() para modifica para numeros e realizar as operações
 
 
 
