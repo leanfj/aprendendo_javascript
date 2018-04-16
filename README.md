@@ -10,7 +10,7 @@ Me desejem sorte....
 #### RECURSOS PARA O GUIA - DESENVOLVEDORES INICIANTES
 
 LIVROS
-- **Beginning JavaScript 4th Edition** (Guia de leituras baseadas neste livro)
+- **Beginning JavaScript 5th Edition** (Guia de leituras baseadas neste livro)
 - JavaScript and JQuery: Interactive Front-End Web Development 1st Edition (conteúdo bastante visual)
 
 BLOG
@@ -34,7 +34,21 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 - [ ] Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling).
 
 ##### Anotações
-Revisando basicamente o conteudo de Learn HTML e Learn CSS, estudamos a estrutaração de um documento HTML e tags básicas indicando paragrafos, quebras de linha, cabeçalhos, lista ordenadas e não ordenadas, links, tabelas e inclusão de imagens e vídeos. Iniciado o basico de CSS com seletores usando tag, classes e id's. Visto especificidade de seletores, estilização de multiplos seletores, seletores aninhados. Utilização de mais propriedade CSS e box model com modificações do box-sizing. Mais informações o sobre position, display e float. Modificação de propriedades de cores usando hexadecimal, hsl, rgb e aplicação de camada alpha para transparencia. Tipografia basica com modificações de fontes em tamanhos, peso e estilo. Importação de fontes. Introdução a propriedade GRID. Introdução ao framework Bootstrap
+Revisando basicamente o conteudo de Learn HTML e Learn CSS, estudamos a estrutaração de um documento HTML e tags básicas indicando paragrafos, quebras de linha, cabeçalhos, lista ordenadas e não ordenadas, links, tabelas e inclusão de imagens e vídeos. Iniciado o basico de CSS com seletores usando tag, classes e id's. Visto especificidade de seletores, estilização de multiplos seletores, seletores aninhados. Utilização de mais propriedade CSS e box model com modificações do box-sizing. Mais informações o sobre position, display e float. Modificação de propriedades de cores usando hexadecimal, hsl, rgb e aplicação de camada alpha para transparencia. Tipografia basica com modificações de fontes em tamanhos, peso e estilo. Importação de fontes. Introdução a propriedade GRID. Introdução ao framework Bootstrap.
+
+Fazendo introdução aos conceitos de Javascript com o livro Beginning JavaScript 5th Edition. 
+
+#### Cap 1
+Instruções sobre o parsing de um documento HTML e como pode ser interompido pelo acionamento de script posicionados em diferentes partes do documento e como adcionar javascript no HTML de forma externa e direto no documento. 
+
+#### Cap 2
+Instruções sobre tipos de dados e variáveis, utilização de operadores básicos.
+Suporte a dados como números, texto(string) e booleanos.
+Declaração de variáveis para armazenamento de dados.
+Operadores basicos de soma, subtração, divisão, multiplicação e atribuição.
+Precedencia de operadores.
+Concatenação de string e conversão de dados.
+Declaração de arrays.
 
 
 
