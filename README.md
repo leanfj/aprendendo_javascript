@@ -28,7 +28,7 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 
 - [x] Codecademy: Se você ainda não conhece HTML e CSS, complete [Learn HTML](https://www.codecademy.com/learn/learn-html) e [Learn CSS](https://www.codecademy.com/learn/learn-css) na Codecademy.
 - [x] Codecademy: Em seguida, siga a pista [Make a Website](https://www.codecademy.com/pt-BR/learn/make-a-website) para criar seu primeiro website, usando o que você aprendeu acima.
-- [ ] Beginning JavaScript : Leia o Capítulo 1 (Introduction to JavaScript and the Web) e o Capítulo 2 (Data Types and Variables).
+- [x] Beginning JavaScript : Leia o Capítulo 1 (Introduction to JavaScript and the Web) e o Capítulo 2 (Data Types and Variables).
 - [ ] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and Functions).
 - [ ] Codecademy: Siga através do [JavaScript Track](https://www.codecademy.com/tracks/javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.”.
 - [ ] Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling).
@@ -51,7 +51,8 @@ Concatenação de string e conversão de dados.
 Declaração de arrays.
 Realizando os exercícios propostos no final do cap temos uma "pegadinha" onde a informação coletada pelo comando prompt vem como texto e precisamos far o parseInt() para modifica para numeros e realizar as operações
 
-
+#### Cap 3
+Introdução a condicionais If
 
 
 
