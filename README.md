@@ -52,7 +52,77 @@ Declaração de arrays.
 Realizando os exercícios propostos no final do cap temos uma "pegadinha" onde a informação coletada pelo comando prompt vem como texto e precisamos far o parseInt() para modifica para numeros e realizar as operações
 
 #### Cap 3
-Introdução a condicionais If
+Introdução a condicionais If, else if e else.
+```javascript
+  if (condicional) {
+    //bloco de execução;
+  } else if (condicional) {
+    //bloco de execução;
+  } else {
+    //bloco de execução;
+  }
+```
+Operadores de comparação.
+```javascript
+  == //igual a
+  != //diferente de
+  <= //menor ou igual a
+  >= //maior ou igual a
+  < // menor que
+  > // maior que
+```
+Utilização de operadores lógicos.
+```javascript
+&& // AND
+|| // OR
+! //negação
+```
+Condicional switch 
+```javascript
+switch(comparador){
+  case comparador:
+    // bloco de execução
+    break;
+  case comparador:
+    // bloco de execução
+    break;
+  default:
+    // bloco de execução
+    break;
+}
+```
+Loop utilizando FOR
+
+```javascript
+for (inicializador; condicional; incrmentar ou decrementar){
+  // bloco de execução
+}
+
+for(contador in contavel){
+
+}
+for
+```
+
+Loop utilizando while
+```javascript
+var contador = 0;
+while (contador <= 10){
+  console.log(contador);
+  contador++
+}
+```
+
+Loop do while executa uma declaração até que o teste da condição for falsa (false)
+
+```javascript
+var i = 0;
+do {
+   i += 1;
+   console.log(i);
+} while (i < 5);
+```
+
 
 
 

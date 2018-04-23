@@ -1,8 +1,12 @@
-var grausFah = [212, 32, -459.15];
+var grausFah = [212, 'string qualquer', -459.15];
 var grausCent = [];
 var contador;
 
 for (contador = 0; contador <= 2; contador++) {
+    if (isNaN(grausFah[contador])){
+        console.log('A informa inserida ' + grausFah[contador] + ' no indice ' + contador + ' é invalida');
+        break;
+    }
     grausCent[contador] = 5/9 * (grausFah[contador] - 32);
     console.log(grausCent[contador]);
 }
