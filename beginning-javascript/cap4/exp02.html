@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function paraCent (grausFah) {
+      var grausCent = 5 / 9 * (grausFah - 32);
+      document.write(grausFah + ' Farenheit em centigrados é ' + grausCent + '<br>');
+    }
+
+    function paraFah (grausCent) {
+      var grausFah = 9 / 5 * grausCent + 32;
+      document.write(grausCent + ' Centigrados em fahrenheit é ' + grausFah + '<br>');
+    }
+
+    function converte(converter, temp) {
+      converter(temp);
+    }
+
+
+    converte(paraFah, 23);
+    converte(paraCent, 75);
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function paraCent (grausFah) {
+      var grausCent = 5 / 9 * (grausFah - 32);
+      return grausCent;;
+    }
+    
+    var grausFah = [212, 32, -459.15];
+    var grausCent = [];
+
+    for (var i = 0; i < grausFah.length; i++) {
+      grausCent[i]=paraCent(grausFah[i]);      
+      document.write(grausCent[i] + '<br/>');
+
+    }
+
+    console.log(grausCent);
+  </script>
+</body>
+</html>

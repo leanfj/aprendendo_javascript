@@ -29,9 +29,10 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 - [x] Codecademy: Se você ainda não conhece HTML e CSS, complete [Learn HTML](https://www.codecademy.com/learn/learn-html) e [Learn CSS](https://www.codecademy.com/learn/learn-css) na Codecademy.
 - [x] Codecademy: Em seguida, siga a pista [Make a Website](https://www.codecademy.com/pt-BR/learn/make-a-website) para criar seu primeiro website, usando o que você aprendeu acima.
 - [x] Beginning JavaScript : Leia o Capítulo 1 (Introduction to JavaScript and the Web) e o Capítulo 2 (Data Types and Variables).
-- [ ] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and Functions).
+- [x] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and ).
+- [ ] Beginning JavaScript : Leia o Capítulo 4 (Functions e escopo).OBS: Leitura adcionada para se adequar a nova edição do livro.
 - [ ] Codecademy: Siga através do [JavaScript Track](https://www.codecademy.com/tracks/javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.”.
-- [ ] Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling).
+~~Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling)~~ OBS.:Conteudo deste capitulo está espalhado pelos capitulos anteriores onde é abordado as melhores praticas com o código e o debug utilizando o chrome.
 
 ##### Anotações
 Revisando basicamente o conteudo de Learn HTML e Learn CSS, estudamos a estrutaração de um documento HTML e tags básicas indicando paragrafos, quebras de linha, cabeçalhos, lista ordenadas e não ordenadas, links, tabelas e inclusão de imagens e vídeos. Iniciado o basico de CSS com seletores usando tag, classes e id's. Visto especificidade de seletores, estilização de multiplos seletores, seletores aninhados. Utilização de mais propriedade CSS e box model com modificações do box-sizing. Mais informações o sobre position, display e float. Modificação de propriedades de cores usando hexadecimal, hsl, rgb e aplicação de camada alpha para transparencia. Tipografia basica com modificações de fontes em tamanhos, peso e estilo. Importação de fontes. Introdução a propriedade GRID. Introdução ao framework Bootstrap.
@@ -123,6 +124,26 @@ do {
 } while (i < 5);
 ```
 
+#### Cap 4
+
+Declaração de funções
+```javascript
+function nomeDaFunction (parametro) {
+  // bloco de execução
+}
+
+// Invocar function
+nomeDaFunction(parametro);
 
 
+// Calculo do valor de Fahrenheit para Centigrados
+function paraCent(grausFah) {
+    var grausCent = 5 / 9 * (grausFah - 32);
+	return grausCent;
+}
+paraCent(212);
 
+```
+Utilização de agumentos e return são opcionais mais aconcelháveis.
+Melhor forma de imaginar o parametros são como simple variáveis
+Escopo de variáveis - Escopo global e Escopo de function(Escopo local)
