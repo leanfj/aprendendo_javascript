@@ -30,7 +30,7 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 - [x] Codecademy: Em seguida, siga a pista [Make a Website](https://www.codecademy.com/pt-BR/learn/make-a-website) para criar seu primeiro website, usando o que você aprendeu acima.
 - [x] Beginning JavaScript : Leia o Capítulo 1 (Introduction to JavaScript and the Web) e o Capítulo 2 (Data Types and Variables).
 - [x] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and ).
-- [ ] Beginning JavaScript : Leia o Capítulo 4 (Functions e escopo).OBS: Leitura adcionada para se adequar a nova edição do livro.
+- [x] Beginning JavaScript : Leia o Capítulo 4 (Functions e escopo).OBS: Leitura adcionada para se adequar a nova edição do livro.
 - [ ] Codecademy: Siga através do [JavaScript Track](https://www.codecademy.com/tracks/javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.”.
 ~~Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling)~~ OBS.:Conteudo deste capitulo está espalhado pelos capitulos anteriores onde é abordado as melhores praticas com o código e o debug utilizando o chrome.
 

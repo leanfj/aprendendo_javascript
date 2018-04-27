@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="bnt_multiplica()">Multiplica</button>
+  <input type="text" name="start" placeholder="start">
+  <input type="text" name="end" placeholder="end">
+  <br><br>
+  <div id="results"></div>
+<script>
+    function limpa () {
+      document.getElementById('results').innerHTML = "";
+    }
+
+    function multiplica (start, end) {
+      for (var i = start; i <= end; i++) {
+        var resulatado = (start + ' * ' + i + ' = ' + (start * i)+ '<br>');
+        var results = document.getElementById('results');
+        results.innerHTML = results.innerHTML + resulatado;
+      }
+    }
+
+    function bnt_multiplica () {
+      limpa();
+      var start = parseInt(document.querySelector('input[name="start"]').value);
+      var end = parseInt(document.querySelector('input[name="end"]').value);
+      multiplica(start, end);
+
+    }
+
+
+  </script>
+</body>
+</html>
