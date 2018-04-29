@@ -31,7 +31,7 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 - [x] Beginning JavaScript : Leia o Capítulo 1 (Introduction to JavaScript and the Web) e o Capítulo 2 (Data Types and Variables).
 - [x] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and ).
 - [x] Beginning JavaScript : Leia o Capítulo 4 (Functions e escopo).OBS: Leitura adcionada para se adequar a nova edição do livro.
-- [ ] Codecademy: Siga através do [Introduction To JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.” Conteudo modificado conforme atualizado do Codecademy.
+- [x] Codecademy: Siga através do [Introduction To JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.” Conteudo modificado conforme atualizado do Codecademy.
 ~~Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling)~~ 
 OBS.:Conteudo deste capitulo está espalhado pelos capitulos anteriores onde é abordado as melhores praticas com o código e o debug utilizando o chrome.
 
@@ -145,6 +145,48 @@ function paraCent(grausFah) {
 paraCent(212);
 
 ```
-Utilização de agumentos e return são opcionais mais aconcelháveis.
+Utilização de agumentos e return são opcionais mais aconselháveis.
 Melhor forma de imaginar o parametros são como simple variáveis
 Escopo de variáveis - Escopo global e Escopo de function(Escopo local)
+
+
+### CodeCademy: Learn Javascript
+
+#### Variáveis
+
+```javascript
+// Declaração de constante imutável
+const nomeVarialvel = 'Leandro';
+
+// Declaração de variavel
+let outroNomeVariavel = 123
+
+// Interpolação de variavel no ES6
+console.log(`Meu nome é ${nomeVariavel}`);
+```
+
+### Arrow functions
+```javascript
+const nomeDaFunction = () => {
+  // Bloco de execução
+};
+
+const outraFunction = parametro => paremetro + paramentro;
+// Caso tenho um parametro e uma linha no bloco de execução pode ser simplificada 
+```
+
+### Iterators
+
+[Documentação Iterators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
+#### SEMANA 2
+
+Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Learn jQuery
+
+- [ ] Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
+- [ ] JavaScriptIsSexy.com: Read my article, JavaScript Objects in Detail
+- [ ] Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”
+- [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
+- [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
+- [ ] Codecademy.com: Work through the entire jQuery Track on Codecademy.
