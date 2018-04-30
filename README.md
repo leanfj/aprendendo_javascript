@@ -185,7 +185,7 @@ const outraFunction = parametro => paremetro + paramentro;
 Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Learn jQuery
 
 - [ ] Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
-- [ ] JavaScriptIsSexy.com: Read my article, JavaScript Objects in Detail
+- [ ] JavaScriptIsSexy.com: Read my article, [JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
 - [ ] Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”
 - [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
 - [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
