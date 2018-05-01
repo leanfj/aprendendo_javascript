@@ -216,10 +216,13 @@ console.log(numeros.reverse());
 ```
 
 indexOf() - Posição dentro do Array
+
 lastIndexOf() - Posição do último resultado no Array
 
 every() - Procura se todos obedecem a condição
+
 some() - Retorna true se somente um obedeçer a condição
+
 filter() - Cria array com o filtro do que obedeceram a condição
 
 forEach() - Assim como o loop for passa com cada elemento do arrays.
@@ -250,3 +253,28 @@ let numerosDobrados = numero.forEach(dobra);
 console.log(numerosDobrados);
 // (6) [2, 4, 6, 8, 10, 12]
 ```
+
+#### MATH
+
+abs() - Numeros abasolutos
+
+ceil() - Arredonda para cima
+
+floor() - Arredonda para baixo
+
+round() - Arredonda para cima se maior ou igual .5 e para baixo caso menor que .5
+
+random() - Retorna um numero aleatorio entre 0 e 1
+```javascript
+Math.floor(Math.random() * 10);
+//Retorna um numero aleatorio entre 1 a 10
+```
+
+pow() - potenciação
+```javascript
+console.log(Math.pow(2,8));
+// 256
+```
+
+#### NUMBERS
+
