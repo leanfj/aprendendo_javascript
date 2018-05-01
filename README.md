@@ -190,3 +190,63 @@ Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Le
 - [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
 - [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
 - [ ] Codecademy.com: Work through the entire jQuery Track on Codecademy.
+
+
+
+#### OBJETOS
+
+##### ARRAYS
+
+sort() - Ordernar arrays.
+```javascript
+let numeros = [1, 4, 6, 2, 3, 9, 5];
+
+console.log(numeros.sort());
+// 1, 2, 3, 4, 5, 6, 9
+
+```
+
+reverse() - Coloca array em ordem reversa.
+
+```javascript
+let numeros = [1, 4, 6, 2, 3, 9, 5];
+
+console.log(numeros.reverse());
+// 5, 9, 3, 2, 6, 4, 1
+```
+
+indexOf() - Posição dentro do Array
+lastIndexOf() - Posição do último resultado no Array
+
+every() - Procura se todos obedecem a condição
+some() - Retorna true se somente um obedeçer a condição
+filter() - Cria array com o filtro do que obedeceram a condição
+
+forEach() - Assim como o loop for passa com cada elemento do arrays.
+```javascript
+let numeros = [1, 2, 3, 4, 5];
+function dobra(value, indes, array) {
+	let result = value * 2;
+	console.log(result);
+}
+numero.forEach(dobra);
+// 2
+// 4
+// 6
+// 8
+// 10
+// 12
+```
+
+map() - Alem de passar por cada elemento do arraya pode ser armazenado em um novo array.
+```javascript
+let numeros = [1, 2, 3, 4, 5];
+function dobra(value, indes, array) {
+	let result = value * 2;
+	return result;
+	console.log(result);
+}
+let numerosDobrados = numero.forEach(dobra);
+console.log(numerosDobrados);
+// (6) [2, 4, 6, 8, 10, 12]
+```

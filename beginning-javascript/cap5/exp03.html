@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let minhaLista = ['Leite', 'Ovos', 'Banana', 'Manteiga'];
+
+    let ordenacao = prompt('1 para lafabética e -1 para reversa', 1);
+
+    if (ordenacao == 1) {
+      minhaLista.sort();
+      document.write(minhaLista.join('<br />'));
+    } else if (ordenacao == -1) {
+      let listaOrdenada = minhaLista.sort();
+      listaOrdenada.reverse();
+      document.write(minhaLista.join('<br />'));
+    } else {
+      document.write('Entre com um opção válida')
+    }
+  </script>
+</body>
+</html>
