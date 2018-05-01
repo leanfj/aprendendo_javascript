@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let meuNumero = prompt('Digite um numero fracionado');
+    document.write(`
+                    <h3> O numero escolhido é ${meuNumero} </h3>
+                    <p>O resultado para aredondado é</p>
+                    <table width='150' border='1'>
+                      <tr>
+                        <th>Metodo</th>
+                        <th>Resultado</th>
+                      </tr>
+                      <tr>
+                        <td>parseInt()</td>
+                        <td>` + parseInt(`${meuNumero}`) + `</td>
+                      </tr>
+                      <tr>
+                        <td>ceil()</td>
+                        <td>` + Math.ceil(`${meuNumero}`) + `</td>
+                      </tr>
+                      <tr>
+                        <td>floor()</td>
+                        <td>` + Math.floor(`${meuNumero}`) + `</td>
+                      </tr>
+                      <tr>
+                        <td>round()</td>
+                        <td>` + Math.round(`${meuNumero}`) + `</td>
+                      </tr>                    
+                    </table>
+                  `);
+  
+  </script>
+</body>
+</html>
