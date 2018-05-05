@@ -277,4 +277,46 @@ console.log(Math.pow(2,8));
 ```
 
 #### NUMBERS
+tofixed() - Fixa o numero de casas decimais somente entre 0 e 20 casas
+
+Declaração
+```javascript
+let primeiroNumero = new Number (123);
+
+let meuNumero = 123.456;
+```
+
+```javascript
+let custoItem = 9.99;
+let aposTaxa = custoItem * 1.075;
+
+console.log(aposTaxa);
+//10.73925
+let valorReal = aposTaxa.toFixed(2);
+console.log(valorReal);
+//10.74
+```
+#### DATE
+Declaração
+```javascript
+let data = new Date;
+// 2018-05-05T03:31:15.903Z
+console.log(Number(data));
+//1525491075903
+```
+Atenção que a data solicitada será com o fuso horário definido no PC onde roda o script
+
+Está informação da data e convertida de um numero de milisegundos com base na data de 01/01/1970
+
+Pode ser declarada uma data especifica
+```javascript
+let data2 = new Date('22 March 1986');
+
+let data3 = new Date('Mar 22 1986');
+
+//Ano,mês,dia,horas,minutos,segundos,milisegundos
+let data4 = new Date(1986,2,22,6,0,0,0);
+
+```
+
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #resultado {
+      width: 80%;
+      height: 100vh;
+      text-align: center;
+      margin: 0 auto;
+      color: rgb(240, 233, 233);
+      background-color: rgb(68, 68, 68);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 20px;
+      text-shadow: 4px 4px 8px black;
+    }
+
+    #relogio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="resultado">
+    <div id="data"></div>
+    <div id="relogio"></div>
+  </div>
+
+  <script>
+    const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+
+
+    let dataAgora = new Date();
+    let anoAgora = dataAgora.getFullYear();
+    let mesAgora = meses[dataAgora.getMonth()]; // getMonth() pegar o valor em numero para o index do meses
+    let diaAgora = dataAgora.getDate();
+
+    let diaSemana;
+
+    switch (diaAgora) {
+      case 1:
+      case 21:
+      case 31:
+          diaSemana = 'st';
+          break;
+      case 2:
+      case 22:
+          diaSemana = 'nd';
+          break;
+      case 3:
+      case 33:
+          diaSemana = 'rd';
+          break;   
+      default:
+          diaSemana = 'th';
+          break;
+    }
+    
+    //Execução do exemplo 07
+    function relogio() {
+      let novadataAgora = new Date();
+      let horaAgora = novadataAgora.getHours();
+      let minutosAgora = novadataAgora.getMinutes();
+      let segundosAgora = novadataAgora.getSeconds();
+
+      //normaliza hora
+      let stringSegundo = segundosAgora.toString();
+      let stringMinutos = minutosAgora.toString();
+      let stringHora = horaAgora.toString();
+
+      if (stringSegundo.length == 1) {
+        segundosAgora = '0' + segundosAgora;
+      }
+
+      if (stringMinutos.length == 1) {
+        minutosAgora = '0' + minutosAgora;
+      }
+
+      if (stringHora.length == 1) {
+        horaAgora = '0' + horaAgora;
+      }
+
+      //exibir relogio
+      let exibeRelogio = `${horaAgora}:${minutosAgora}:${segundosAgora}`;
+      document.getElementById('relogio').innerHTML = exibeRelogio;
+
+      //seta intervalo de 1 segundo para executar a function
+      setTimeout('relogio()', 1000);
+    }
+    
+    //executa quando o body esta carregado
+    document.body.addEventListener('load', relogio());
+
+    //Exibe data
+    let resultado = document.getElementById('data');
+    resultado.innerHTML = `<div>Hoje é o dia ${diaAgora} ${diaSemana}</div>
+                           <div>Estamos no mês de: ${mesAgora}</div>
+                           <div>No ano: ${anoAgora}</div>
+                          `;
+  </script>
+</body>
+</html>
