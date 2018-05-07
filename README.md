@@ -93,7 +93,12 @@ switch(comparador){
     break;
 }
 ```
+
+
+
 Loop utilizando FOR
+
+A utilização de variaveis de controle devem ser declaradas fora das estrutras de repetição.
 
 ```javascript
 for (inicializador; condicional; incrmentar ou decrementar){
