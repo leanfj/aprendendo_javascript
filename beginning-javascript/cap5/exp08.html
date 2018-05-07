@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script>
+    
+  function criarPessoa (primeiroNome, segundoNome){
+    return {
+      primeiroNome: primeiroNome,
+      segundoNome: segundoNome,
+      //cria function(metodo) que concatena os parametros e retorna
+      nomeCompleto: function(){
+        return this.primeiroNome + ' ' + this.segundoNome;
+      },
+      //cria function e usa o parametro na utilização da function nomeCompleto()
+      //parametro pessoa recebe um objeto criado que por sua vez tambem possue o metodo nomeCompleto()
+      saudacao: function(pessoa){
+        alert('Ola ' + pessoa.nomeCompleto() + ' me chamo ' + this.nomeCompleto() );
+      }
+    };
+  }
+  
+  let leandro = criarPessoa('Leandro', 'Ferreira');
+  let dayana = criarPessoa('Dayana', 'Brandão');
+
+  leandro.saudacao(dayana);
+
+  console.log(dayana);
+
+  </script>
+</body>
+</html>
