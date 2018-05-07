@@ -394,3 +394,54 @@ andreia.saudacao();
 
 ```
 
+##### Criando Constructors
+```javascript
+function Pessoa(primeiroNome, segundoNome) {
+  this.primeiroNome = primeiroNome;
+  this.segundoNome = segundoNome;
+}
+//Note a utilização de maiusculo para nomear a function construtora
+```
+
+Metodos criados com auxilio do prototype do constructor pessoa. Poderia ser criados dentro do constructor. Serão compartilhados com todos os objetos criados.
+```javascript
+
+Pessoa.prototype.nomeCompleto = function () {
+  return this.primeiroNome + ' ' + this.segundoNome;
+};
+
+Pessoa.prototype.saudacao = function (pessoa) {
+  console.log('Ola ' + pessoa.nomeCompleto() + '. Me chamo ' + this.nomeCompleto());
+};
+
+```
+
+Criando instâncias do constructor pessoa
+```javascript
+var fulano = new Pessoa('Fulano', 'Tal');
+var menina = new Pessoa('Menina', 'Silva');
+
+console.log(fulano.nomeCompleto());
+
+fulano.saudacao(menina);
+
+```
+
+##### ES2015 class (Estudar +)
+```javascript
+class outraPessoa {
+  constructor(primeiroNome, segundoNome) {
+    this.primeiroNome = primeiroNome;
+    this.segundoNome = segundoNome;
+  }
+  //metodos criados com auxilio do prototype do constructor pessoa. Poderia ser criados dentro do constructor. Serão compartilhados com todos os objetos criados.
+  nomeCompleto() {
+    return this.primeiroNome + ' ' + this.segundoNome;
+  }
+  saudacao() {
+    console.log('Ola ' + pessoa.nomeCompleto() + '. Me chamo ' + this.nomeCompleto());
+  }
+}
+
+```
+
