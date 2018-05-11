@@ -20,11 +20,9 @@ CURSOS ONLINE
 - Codecademy.com (4 trilhas) 
 - CodeSchool.com (1 minicurso)
 
-## SEMANA 1 E 2
+# SEMANAS
 
-#### SEMANA 1
-
-Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, funçoes, controle de fluxo e loops em JavaScript.
+Week 1: Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions, Control Flow, and Loops
 
 - [x] Codecademy: Se você ainda não conhece HTML e CSS, complete [Learn HTML](https://www.codecademy.com/learn/learn-html) e [Learn CSS](https://www.codecademy.com/learn/learn-css) na Codecademy.
 - [x] Codecademy: Em seguida, siga a pista [Make a Website](https://www.codecademy.com/pt-BR/learn/make-a-website) para criar seu primeiro website, usando o que você aprendeu acima.
@@ -32,6 +30,21 @@ Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, f
 - [x] Beginning JavaScript : Leia o Capítulo 3 (Decisions, Loops, and ).
 - [x] Beginning JavaScript : Leia o Capítulo 4 (Functions e escopo).OBS: Leitura adcionada para se adequar a nova edição do livro.
 - [x] Codecademy: Siga através do [Introduction To JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) na Codecademy. Especificamente, trabalhe com estas seções: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” e “Control Flow.” Conteudo modificado conforme atualizado do Codecademy.
+
+Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Learn jQuery
+
+- [x] Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
+- [ ] JavaScriptIsSexy.com: Read my article, [JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
+- [ ] Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”
+- [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
+- [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
+- [ ] Codecademy.com: Work through the entire jQuery Track on Codecademy.
+
+
+## SEMANA 1
+
+Conteúdo a ser elaborado: Criar site com HTML e CSS, aprender tipos de dados, funçoes, controle de fluxo e loops em JavaScript.
+
 ~~Beginning JavaScript : Leia o Capítulo 4 (Common Mistakes, Debugging, and Error Handling)~~ 
 OBS.:Conteudo deste capitulo está espalhado pelos capitulos anteriores onde é abordado as melhores praticas com o código e o debug utilizando o chrome.
 
@@ -185,18 +198,10 @@ const outraFunction = parametro => paremetro + paramentro;
 [Documentação Iterators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
-#### SEMANA 2
-
-Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Learn jQuery
-
-- [ ] Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
-- [ ] JavaScriptIsSexy.com: Read my article, [JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
-- [ ] Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”
-- [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
-- [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
-- [ ] Codecademy.com: Work through the entire jQuery Track on Codecademy.
+# SEMANA 2
 
 
+### Cap 5
 
 #### OBJETOS
 
