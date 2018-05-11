@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .container {
+      text-align: center;
+      border: 1px solid #000;
+      border-radius: 5px;
+      width: 450px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #e0e0e0;
+    }
+    .formulario {
+      margin-bottom: 20px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .formulario input {
+      padding: 5px;
+      font-size: 17px;
+      border: none;
+    }
+    .formulario button {
+      padding: 5px;
+      font-size: 17px;
+      background-color: transparent;
+      border: 1px solid #000;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Ordenador de Nomes</h1>
+    <div class="formulario">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Escrava o nome">
+      <button id="send">Enviar</button>
+  
+    </div>
+  
+    <div id="resultado">
+  
+    </div>
+  </div>
+  <!-- <script src="ordena.js"></script> -->
+
+  <script>
+    let listaNome = [];
+    let ordenaLista = '';
+    let nome;
+
+    while (nome !== '') {
+      nome = prompt('insira um nome');
+      listaNome.push(nome);
+      ordenaLista = listaNome.sort();
+      console.log(ordenaLista);
+    }
+
+    let resultado = '';
+
+    for (let i = 1; i < ordenaLista.length; i++) {
+      resultado += ordenaLista[i] + '<br>';
+    }
+
+    document.getElementById('resultado').innerHTML = resultado;
+
+  
+  </script>
+
+
+</body>
+</html>
