@@ -7,8 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+
+  <!-- script Resolução utilizando ES2015 com class -->
+  <script src="criandoObj.js"></script>
+
   <script>
-    
+
+/*Resolução exemplo 08*/
   function criarPessoa (primeiroNome, segundoNome){
     return {
       primeiroNome: primeiroNome,
@@ -24,13 +30,34 @@
       }
     };
   }
-  
   let leandro = criarPessoa('Leandro', 'Ferreira');
   let dayana = criarPessoa('Dayana', 'Brandão');
 
   leandro.saudacao(dayana);
 
   console.log(dayana);
+  
+
+/*Resolução exercico 3*/
+
+// //Constructor function
+// function Pessoa (argPrimeiroNome, argSegundoNome, argIdade) {
+//   this.primeiroNome = argPrimeiroNome;
+//   this.segundoNome = argSegundoNome;
+//   this.idade = argIdade;
+// }
+
+
+// //inclusão de metodo via prototype
+// Pessoa.prototype.nomeCompleto = function () {
+//   return ( this.primeiroNome + ' ' + this.segundoNome);
+// }
+
+
+// //instanciando o objeto
+// let lucas = new Pessoa ('Lucas', 'Bento', 2);
+
+// console.log(lucas);
 
   </script>
 </body>
