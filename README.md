@@ -460,6 +460,7 @@ Propriedades podem ser nomeadas com String ou Numbers. Porem se for nomeada com 
 let idadeGrupo = {30:"Adultos"};
 console.log(idadeGrupo["30"]);//Adultos
 ```
+
 Dados armazenados em propriedades de objetos são armazenados por referencia e não como uma alocação de uma variável comum.
 
 ```javascript
@@ -482,3 +483,4 @@ pessoa.nome = 'Carlos';
 console.log(outraPessoa.nome);//Carlos
 console.log(pessoa.nome);//Carlos
 ``` 
+
