@@ -450,3 +450,35 @@ class outraPessoa {
 
 ```
 
+## Artigo Object in details JSisSexy
+
+O que é um objeto - É uma lista não ordenada de dados primitivos armazenado em um par de chave-valor. Seu items são chamados de propriedades, functions quando armazenasdas são chamadas de métodos.
+
+Propriedades podem ser nomeadas com String ou Numbers. Porem se for nomeada com Numbers so pode se acessada via bracket notation
+
+```javascript
+let idadeGrupo = {30:"Adultos"};
+console.log(idadeGrupo["30"]);//Adultos
+```
+Dados armazenados em propriedades de objetos são armazenados por referencia e não como uma alocação de uma variável comum.
+
+```javascript
+
+/*Armazenamento dado primitivo*/
+let nome = 'João';
+let outroNome = nome;
+nome = 'Andre';
+
+console.log(outroNome);//João
+console.log(nome);//Andre
+
+
+/*Armazenamento por referencia*/
+let pessoa = {nome:'Leandro'};
+let outraPessoa = pessoa;
+
+pessoa.nome = 'Carlos';
+
+console.log(outraPessoa.nome);//Carlos
+console.log(pessoa.nome);//Carlos
+``` 
