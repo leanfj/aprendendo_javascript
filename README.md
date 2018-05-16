@@ -38,9 +38,9 @@ Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Le
 
 * [x] Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
 * [x] JavaScriptIsSexy.com: Read my article, [JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
-* [x] Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”. Seção de Objetos na nova trilha de javascrpit aborda os assuntos.
-* [ ] Beginning JavaScript: Read Chapter 6 (Programming the Browser).
-* [ ] Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
+* [x] Codecademy.com: ~~Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”.~~ Seção de Objetos na nova trilha de javascrpit aborda os assuntos.
+* [ ] Beginning JavaScript: ~~Read Chapter 6~~ Alterado para Cap 08 (Programming the Browser).
+* [ ] Beginning JavaScript: ~~Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”~~ Modificado para Cap 16: Jquery.
 * [ ] Codecademy.com: Work through the entire jQuery Track on Codecademy.
 
 ## SEMANA 1
