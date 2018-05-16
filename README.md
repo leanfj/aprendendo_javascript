@@ -484,3 +484,37 @@ console.log(outraPessoa.nome);//Carlos
 console.log(pessoa.nome);//Carlos
 ``` 
 
+Duas formas mais comuns de criar objects
+
+```javascript
+let meuObjeto = {};// Object literal
+
+let outroObjeto = new Object ();//Object constructor
+```
+
+
+Patterns para criar Objects
+
+#### Constructor Pattern
+
+```javascript
+function Fruta(argCor, argSabor, argNome, argLocal) {
+  //Propriedades
+  this.cor = argCor;
+  this.sabor = argSabor;
+  this.nome = argNome;
+  this.local = argLocal;
+
+  //Metodos
+  this.mostraNome = function () {
+    console.log('Isso fruta é um(a) ' + this.nome);
+  }
+
+  this.localOrigem = function () {
+    this.local.forEach(function(cadaLocal) {
+      console.log('Essa fruta vem de ' + cadaLocal);
+    });
+  }
+
+}
+```
